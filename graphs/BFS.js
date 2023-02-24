@@ -1,4 +1,5 @@
 // JavaScript code example for Breadth-First Search:
+
 function BFS(root) {
   // Create an empty queue and enqueue root node
   let queue = [];
