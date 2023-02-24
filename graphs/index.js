@@ -140,9 +140,9 @@ console.log(g.printGraph());
 
 // function to performs BFS
 
-const startingNode = "A";
+const startingNode = "F";
 
-console.log(g.bfs(startingNode));
+console.log(g.dfs(startingNode));
 // prints
 
 // A B D E C F
