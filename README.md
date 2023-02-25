@@ -10,43 +10,11 @@ Blog and Resume template with turborepo
 
 </h2>
 
-![comet-land-resume](https://user-images.githubusercontent.com/26461307/160653172-c56a3b64-dfa9-4708-bf95-fca2fff47964.png)
-
-<h2 align="center">
-
-[`RESUME DEMO 💫`](https://comet-land-resume.vercel.app/)
-
-</h2>
-
-![postGif](https://user-images.githubusercontent.com/26461307/159372336-e42c1a9c-9915-4d05-9e51-4882d681dc80.gif)
-
-- 👔 Code highlight with line-highlight, line-numbers
-- 🎨 Design with [NextUI](https://nextui.org/)
-- 🍽 Table of contents
-- 🎩 Dark mode
-
-![kbarGif](https://user-images.githubusercontent.com/26461307/159372344-d628b817-d7f5-4322-813e-3468a62e79d6.gif)
-
-- ⌨️ Search with [KBar](https://kbar.vercel.app/)
-- 🔨 Configurable
-- 🔊 [Utterances](https://utteranc.es/) Comment
-- 🔭 Google Analytics
-- 🔥 Hotjar
-- 🏄 Lighthouse score
-
-![blog lighthouse score](https://user-images.githubusercontent.com/26461307/161536154-b85caf9f-0f73-4224-a1e7-540723916ff7.gif)
-
-## Resume Feature
-
-- 🎨 Design with [NextUI](https://nextui.org/)
-- 🎩 Dark mode
-- ⌨️ Contact with [KBar](https://kbar.vercel.app/)
-- 🔨 Configurable
-- 🔭 Google Analytics
-- 🔥 Hotjar
-- 🏄 Lighthouse score
-
-![resume lighthouse score](https://user-images.githubusercontent.com/26461307/161536162-63278484-ca52-42ed-89d4-951cd31e42c1.gif)
+ <div class="badges-container">
+    <div class="badges-body"> 
+        [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg?longCache=true&style=plastic)](https://GitHub.com/Naereen/ama) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-blue.svg?longCache=true&style=plastic)](https://www.python.org/) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg?longCache=true&style=plastic)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)  ![PyPI - Status](https://img.shields.io/pypi/status/Django.svg?style=plastic) ![Contributor](https://img.shields.io/badge/Contributors-2-orange.svg?longCache=true&style=plastic) 
+    </div>
+ </div>
 
 ## How to start
 
