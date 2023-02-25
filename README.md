@@ -1,12 +1,12 @@
 # Javascript Algorithms
 
-[![Total alerts] [![Language grade: JavaScript] [![Continious Intergration]![codecov] [![blog]![resume]
+![Total alerts] [![Language grade: JavaScript] [![ContiniousIntergration]![codecov] [![blog]![resume]]
 
 Blog and Resume template with turborepo
 
 <h2 align="center">
 
-[`BLOG DEMO ☄️`]
+`BLOG DEMO ☄️`
 
 </h2>
 
