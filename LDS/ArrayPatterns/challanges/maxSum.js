@@ -1,20 +1,13 @@
-// Max Subarray
-// AR-1) Given an array of integers, find the maximum sum of
-// consecutive elements (subarray).
-
-// Examples:
-
-// maxSubArray([1, -3, 10, -5]); // 10 (taking only 10)
-// maxSubArray([-3, 4,-1, 2, 1, -5]); // 6 (sum [4,-1, 2, 1])
-// maxSubArray([-2, 1, -3, 4, -1, 3, 1]); // 7 (sum [4,-1, 3, 1])
+// Max of adding
+// Given an array of integers, find the maximum sum of adding the highest number in the array
 
 /**
  * Find  numbers that add up to a max num.
  * @param arr - The array of integers
- * @returns {subarr[]} - subarray with the values that add up to max tot
+ * @returns maxSum
  */
 
-function maxSubArry(arr) {
+function maxTotal(arr) {
   let maxSum; //init maxsum to 0
   let start = 0; // init start index to 0
   let end = 0; //init end index to 0
@@ -33,7 +26,6 @@ function maxSubArry(arr) {
   }
   return maxSum;
 }
-const arr = [2, 4, 6, 8, 10];
+const arr = [0, -1, 6, 3, 100, 9];
 
-console.log(maxSubArry(arr));
-max;
+console.log(maxTotal(arr));

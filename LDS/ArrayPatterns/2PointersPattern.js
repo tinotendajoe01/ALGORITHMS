@@ -17,7 +17,9 @@ function twoSum(arr, target) {
 function twoSum(arr, target) {
   for (let i = 0; i < arr.length - 1; i++)
     for (let j = i + 1; j < arr.length; j++)
-      if (arr[i] + arr[j] === target) return [arr[i], arr[j]];
+      if (arr[i] + arr[j] === target) {
+        return [arr[i], arr[j]];
+      }
   return [];
 }
 
@@ -40,3 +42,6 @@ function twoSum(arr, target) {
   return [];
 }
 // These two pointers have a runtime of O(n).
+
+let arr = [-5, -3, -1, 1, 2];
+console.log(twoSum(arr, 3));
