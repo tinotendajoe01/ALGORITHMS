@@ -22,14 +22,14 @@ const objMap = {};
 objMap["str"] = "foo"; // string as key
 objMap[1] = "bar"; // number as key
 objMap[{}] = "test1"; // object as key (not recommended)
-const obj1 = {};
-objMap[obj1] = "test2"; // object as key (not recommended)
+const obj = {};
+objMap[obj] = "test2"; // object as key (not recommended)
 
 // searching values by key
 console.log(objMap[1]); //↪️ bar
 console.log(objMap["str"]); //↪️ foo
 console.log(objMap[{}]); //↪️ test2 👀
-console.log(objMap[obj1]); //↪️ test2 👀
+console.log(objMap[obj]); //↪️ test2 👀
 
 console.log(objMap); // {1: "bar", str: "foo", [object Object]: "test"}
 
@@ -129,3 +129,33 @@ console.log(obj2);
 // { adrian: 33, nathalie: 32, Abi: 2 }
 console.log(map2);
 // Map { 'adrian' => 33, 'nathalie' => 32, 'Abi' => 2 }
+
+// Key by Reference vs. by Value
+// There’s a catch when you use objects/arrays/classes as keys on a Map. JavaScript will match the key only if it has the same reference in memory.
+
+// Look at the following example:
+
+// Array as a Map’s key
+// const map = new Map();
+
+map.set([1, 2, 3], "value");
+console.log(map.get([1, 2, 3])); // undefined 👀
+
+// Trying to access a Map’s value using a complex type is a common gotcha. If you want array as a key to work, you need to hold on to a reference, like the following example.
+
+// Array reference as a Map’s key
+const mape = new Map();
+const arr = [1, 2, 3];
+
+map.set(arr, "value");
+console.log(mape.get(arr)); // 'value'
+
+// The same applies to any key that is not a number, string, or symbol.
+
+// Map Inner Workings
+// There are two popular ways to implement Maps, key/value pair data structures:
+// Array + Hash Function: Hash Map
+
+// Balanced Binary Search Tree: TreeMap.
+
+// A map uses an array to store the values and a hash function that translate the key into an array index behind the scenes.
