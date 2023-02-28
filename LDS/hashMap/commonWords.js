@@ -75,3 +75,12 @@ Step 6: Finally, if no match was found, we return an empty string as there was n
   return "";
 }
 // end::explicit[]
+
+const paragraph =
+  "Hello jason, today i am working on could'nt a few things that are important Before i go";
+const banned = ["today", "few", "go"];
+const words = paragraph.toLowerCase().replace(/\W+/g, " ").split(/\s+/); //1.
+const exclude = new Set(banned); //2.
+console.log(paragraph);
+console.log(words);
+console.log(exclude);
