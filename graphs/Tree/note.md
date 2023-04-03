@@ -54,3 +54,23 @@ In this implementation, the TreeNode class represents a single node in the tree,
 The traverse method on the Tree class performs a depth-first traversal of the tree, starting at the root node by default. It prints the value of each node in the tree in depth-first order, which means it visits all the nodes in the left subtree before visiting the nodes in the right subtree.
 
 Note that this implementation is just one example of how a tree data structure can be implemented in JavaScript, and there are many variations and optimizations possible depending on the specific use case.
+
+Insertion:
+
+Start at the root node of the BST.
+Compare the value to be inserted with the value of the current node.
+If the value is less than the value of the current node, move to the left child node. If the left child is null, create a new node with the value and set it as the left child. If the left child is not null, repeat step 2 with the left child as the current node.
+If the value is greater than or equal to the value of the current node, move to the right child node. If the right child is null, create a new node with the value and set it as the right child. If the right child is not null, repeat step 2 with the right child as the current node.
+Deletion:
+
+Search for the node with the value to be deleted.
+If the node has no children, simply delete it.
+If the node has one child, replace it with its child.
+If the node has two children, find the node with the next-highest value (either the smallest value in the right subtree or the largest value in the left subtree), swap its value with the node to be deleted, and then delete the node with the swapped value.
+Search:
+
+Start at the root node of the BST.
+Compare the value to be searched with the value of the current node.
+If the value is equal to the value of the current node, return the node.
+If the value is less than the value of the current node, move to the left child node. If the left child is null, the value is not in the BST. If the left child is not null, repeat step 2 with the left child as the current node.
+If the value is greater than the value of the current node, move to the right child node. If the right child is null, the value is not in the BST. If the right child is not null, repeat step 2 with the right child as the current node.
