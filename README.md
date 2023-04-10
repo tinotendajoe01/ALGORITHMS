@@ -25,27 +25,33 @@ Graphs
 <li>Challenges & Solutions
 </li></ul>
 
-<div>
-# 🎇 Introduction
+## 🎇 Introduction
 
 This repository is designed for those who want to learn JavaScript Data Structures and Algorithms in a fun and interactive way. We understand that learning can be a daunting task, so we've structured the content in a way that will keep you hooked and motivated throughout your learning journey. Let's embark on this exciting adventure together!</div>
 
-🚂 Linear Data Structures
-Array
-Linked List
-Stack
-Queue
-🌳 Trees
-Binary Trees
-Binary Search Trees
-AVL Trees
-Trie
-🌐 Graphs
-Undirected Graphs
-Directed Graphs
-Weighted Graphs
-Graph Algorithms
-🙌 Credits
+## 🚂 Linear Data Structures
+
+<li>Array</li>
+<li>Linked List</li>
+<li>Stack</li>
+<li>Queue</li>
+
+## 🌳 Trees
+
+<li>Binary Trees</li>
+<li>Binary Search Trees</li>
+<li>AVL Trees</li>
+<li>Trie</li>
+
+## 🌐 Graphs
+
+<li>Undirected Graphs</li>
+<li>Directed Graphs</li>
+<li>Weighted Graphs</li>
+<li>Graph Algorithms</li>
+
+## 🙌 Credits
+
 This repository was inspired by and heavily referenced from the fantastic resource, dsa.js-data-structures-algorithms-javascript by books.adrianmejia.com. A huge shoutout to them for providing invaluable content that played a pivotal role in my learning journey.
 
 ## 🤝 Contribute & Support
