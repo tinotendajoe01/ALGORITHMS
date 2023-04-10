@@ -27,11 +27,13 @@ Graphs
 
 ## 🎇 Introduction
 
-This repository is designed for those who want to learn JavaScript Data Structures and Algorithms in a fun and interactive way. We understand that learning can be a daunting task, so we've structured the content in a way that will keep you hooked and motivated throughout your learning journey. Let's embark on this exciting adventure together!</div>
+This repository is designed for those who want to learn JavaScript Data Structures and Algorithms in a simple and fun potatoe-candy-toys examples way. I understand that learning can be a daunting task, so I've structured the content in a way that will keep you hooked and motivated throughout your learning journey. Let's embark on this exciting adventure together!</div>
 
 ## 🚂 Linear Data Structures
 
 <li>Array</li>
+<li>HashMap</li>
+<li>HashSet</li>
 <li>Linked List</li>
 <li>Stack</li>
 <li>Queue</li>
@@ -40,7 +42,7 @@ This repository is designed for those who want to learn JavaScript Data Structur
 
 <li>Binary Trees</li>
 <li>Binary Search Trees</li>
-<li>AVL Trees</li>
+<li>Tree Map</li><li>Tree Set</li><li>Tree Traversals</li>
 <li>Trie</li>
 
 ## 🌐 Graphs
@@ -52,7 +54,7 @@ This repository is designed for those who want to learn JavaScript Data Structur
 
 ## 🙌 Credits
 
-This repository was inspired by and heavily referenced from the fantastic resource, dsa.js-data-structures-algorithms-javascript by books.adrianmejia.com. A huge shoutout to them for providing invaluable content that played a pivotal role in my learning journey.
+This repository was inspired by and heavily referenced from the fantastic resource, <a>https://github.com/amejiarosario/dsa.js-data-structures-algorithms-javascript</a> by <a>books.adrianmejia.com</a>. A huge shoutout to the guy for providing valuable content that played a pivotal role in my learning journey.
 
 ## 🤝 Contribute & Support
 
