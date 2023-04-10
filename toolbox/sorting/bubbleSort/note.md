@@ -24,3 +24,23 @@ arr[j + 1] = tmp;
 return arr;
 }
 So, just like with your colored marbles, this algorithm goes through the array of numbers and compares each pair of adjacent numbers. If the first number is bigger than the second one, their positions are swapped. This process is repeated until the array is sorted in ascending order.
+It uses JavaScript ES6 destructing arrays.
+
+JavaScript Array destructuring
+Assignment separate from declaration
+
+A variable can be assigned to its values using the destructing syntax.
+
+let a, b;
+
+[a, b] = [1, 2];
+console.log(a); //↪️ 1
+console.log(b); //️↪️ 2
+Swapping variables
+
+Two variables' values can be swapped in one line using the destructuring expression.
+
+[a, b] = [b, a];
+console.log(a); //↪️ 2
+console.log(b); //️↪️ 1
+Without the destructuring assignment, swapping two values requires a temporary variable.
