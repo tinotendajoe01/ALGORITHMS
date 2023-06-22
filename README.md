@@ -58,6 +58,6 @@ This repository was inspired by and heavily referenced from the fantastic resour
 
 ## 🤝 Contribute & Support
 
-Feel free to contribute and open issues if you find any. Your feedback and contributions are always welcome! Let's make this repository a fun, interactive, and valuable resource for everyone learning JavaScript Data Structures and Algorithms.
+Feel free to contribute and open issues if you find any. Your feedback and contributions are always welcome! Let's make this repository a fun, interactive, and valuable resource for everyone learning JavaScript Data Structures and Algorithms
 
 🌟 Don't forget to star this repo if you found it helpful! Happy Learning! 🎉
